@@ -30,7 +30,7 @@ public class Main {
     static Document document;
     
     
-    public static void execute(String arg1, String arg2){
+    public void execute(String arg1, String arg2){
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
         //factory.setNamespaceAware(true);

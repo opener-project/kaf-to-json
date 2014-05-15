@@ -5,6 +5,7 @@ import java.io.InputStream;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+
 import java.net.URL;
 
 /**
@@ -41,8 +42,8 @@ public class AppTest
     	String kaf_example=AppTest.class.getResource("/example.kaf").getPath();
     	String kaf2json=AppTest.class.getResource("/kaf2json.xsl").getPath();
       	
-    	
-    	Main.execute(kaf2json, kaf_example);
+        Main prog = new Main();
+    	prog.execute(kaf2json, kaf_example);
     
     	
         assertTrue( true );
