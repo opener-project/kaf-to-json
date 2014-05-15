@@ -36,13 +36,13 @@ public class AppTest
      */
     public void testApp()
     {
-    	Main prog = new Main();
+  
     
     	String kaf_example=AppTest.class.getResource("/example.kaf").getPath();
     	String kaf2json=AppTest.class.getResource("/kaf2json.xsl").getPath();
       	
     	
-    	prog.execute(kaf2json, kaf_example);
+    	Main.execute(kaf2json, kaf_example);
     
     	
         assertTrue( true );
