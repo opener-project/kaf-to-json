@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.vicomtech.opener</groupId>
   <artifactId>kafTOjson</artifactId>
-  <name>kaf-conll</name>
+  <name>kafTOjson</name>
   <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <build>
